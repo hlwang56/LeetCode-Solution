@@ -2,6 +2,8 @@
  * @param {number[]} nums
  * @return {number}
  */
+//https://leetcode-cn.com/problems/contiguous-array/
+
 var findMaxLength = function(nums) {
     let ans = new Map();
     ans.set(0, -1);//initialize:(sum, index)
