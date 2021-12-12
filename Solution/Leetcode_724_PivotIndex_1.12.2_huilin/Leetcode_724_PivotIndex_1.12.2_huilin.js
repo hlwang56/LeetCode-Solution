@@ -2,6 +2,9 @@
  * @param {number[]} nums
  * @return {number}
  */
+
+// https://leetcode-cn.com/problems/find-pivot-index/
+
 var pivotIndex = function(nums) {
     var sum = 0;
     var left = 0;
